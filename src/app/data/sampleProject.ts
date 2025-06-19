@@ -34,4 +34,11 @@ export const sampleProjects = [
       tech: ["React", "D3.js", "Express"],
       image: "/test.jpg",
     },
+    {
+      id: 6,
+      title: "Inventory Management System",
+      description: "Track products, manage stock levels, and generate comprehensive reports.",
+      tech: ["Java", "MySQL", "Swing"],
+      image: "/test.jpg",
+    }
   ]

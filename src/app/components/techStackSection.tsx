@@ -29,19 +29,19 @@ const TechStackSection = () => {
   const duplicatedTechStack = [...techStack, ...techStack, ...techStack];
 
   return (
-      <section className="py-16 bg-slate-50/50 w-full">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
+      <section className="py-5 bg-slate-50/50 w-full">
+        <div className="">
+          <div className="text-center mb-3">
             <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4">
               Technologies I Use
             </h2>
           </div>
           
           {/* Container with hidden overflow */}
-          <div className="overflow-hidden relative py-4">
+          <div className=" relative py-5 overflow-hidden">
             {/* Scrolling container */}
             <div 
-              className="flex whitespace-nowrap"
+              className="flex whitespace-nowrap "
               style={{
                 width: `${techStack.length * 2 * 120}px`, // Adjust based on your item width
                 animation: 'scroll 20s linear infinite'

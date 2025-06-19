@@ -43,7 +43,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="px-6 py-24 md:py-32 ">
+      <section className="px-6 py-20 md:py-32 ">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-slate-50 rounded-full px-4 py-2 text-sm font-medium text-slate-600 mb-8">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -156,25 +156,12 @@ export default function HomePage() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
-            <div className="space-y-8">
-              <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
-              <div className="grid gap-4">
-                {services.map((service, index) => (
-                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
-                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
-                      <p className="text-slate-600 text-sm">{service.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+           
 
             <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
-              <h3 className="text-2xl font-semibold mb-6">Investment Range</h3>
+              <h3 className="text-2xl font-bold mb-6">Pricing Range</h3>
               <div className="text-center mb-8">
-                <div className="text-4xl font-bold text-slate-900 mb-2">₱1,000 - ₱5,000</div>
+                <div className="text-4xl font-bold text-green-500 mb-2">₱1,000 - ₱5,000</div>
                 <p className="text-slate-600">Based on project complexity and timeline</p>
               </div>
               <div className="space-y-4 text-sm text-slate-600">
@@ -191,10 +178,25 @@ export default function HomePage() {
                   <span className="font-medium">₱3,000 - ₱5,000</span>
                 </div>
               </div>
-              <Button className="w-full mt-8 bg-slate-900 hover:bg-slate-800 text-white rounded-xl py-3 font-medium">
-                Start Your Project
-              </Button>
+             
             </div>
+
+
+             <div className="space-y-8">
+              <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
+              <div className="grid gap-4">
+                {services.map((service, index) => (
+                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
+                      <p className="text-slate-600 text-sm">{service.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
