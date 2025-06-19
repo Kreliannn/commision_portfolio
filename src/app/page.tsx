@@ -19,11 +19,15 @@ export default function HomePage() {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center">
-              <Heart className="w-4 h-4 text-white fill-white" />
+                <img
+                    src={"/logo.jpg"}
+                    alt={"Kian Dev Logo"}
+                    className="w-full h-full rounded-lg  object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
             </div>
-            <span className="text-xl font-semibold tracking-tight">Blank</span>
+            <span className="text-xl font-semibold tracking-tight">ian Dev</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a
