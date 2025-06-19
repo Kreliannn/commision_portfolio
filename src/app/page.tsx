@@ -4,115 +4,15 @@ import { Heart, Facebook, Phone, ArrowRight, Code, Palette, Database, Globe } fr
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { systemsForSale } from "./data/systemForSale"
+import { sampleProjects } from "./data/sampleProject"
+import {services} from "./data/services"
+import { techStack } from "./data/techStack"
+import TechStackSection from "./components/techStackSection"
 
 export default function HomePage() {
-  const techStack = [
-    { name: "PHP", icon: Code },
-    { name: "MySQL", icon: Database },
-    { name: "JavaScript", icon: Code },
-    { name: "Python", icon: Code },
-    { name: "Java", icon: Code },
-    { name: "React", icon: Code },
-    { name: "Next.js", icon: Globe },
-    { name: "Laravel", icon: Code },
-    { name: "PyQt6", icon: Palette },
-    { name: "C++", icon: Code },
-  ]
 
-  const systemsForSale = [
-    {
-      id: 1,
-      title: "Student Management System",
-      description: "Complete system for managing student records, grades, and enrollment with intuitive dashboard.",
-      tech: ["PHP", "MySQL", "Bootstrap"],
-      price: "₱2,500",
-      image: "/test.jpg",
-      featured: false,
-    },
-    {
-      id: 2,
-      title: "Inventory Management System",
-      description: "Track products, manage stock levels, and generate comprehensive reports.",
-      tech: ["Java", "MySQL", "Swing"],
-      price: "₱3,000",
-      image: "/test.jpg",
-      featured: false,
-    },
-    {
-      id: 3,
-      title: "Library Management System",
-      description: "Manage books, borrowers, and library transactions efficiently.",
-      tech: ["Python", "SQLite", "PyQt6"],
-      price: "₱2,800",
-      image: "/test.jpg",
-      featured: false,
-    },
-    {
-      id: 4,
-      title: "Point of Sale System",
-      description: "Complete POS solution with sales tracking and receipt printing.",
-      tech: ["PHP", "MySQL", "JavaScript"],
-      price: "₱3,500",
-      image: "/test.jpg",
-      featured: false,
-    },
-    {
-      id: 5,
-      title: "Employee Management System",
-      description: "HR system for managing employee data, payroll, and attendance.",
-      tech: ["Java", "MySQL", "Swing"],
-      price: "₱4,000",
-      image: "/test.jpg",
-      featured: false,
-    },
-  ]
-
-  const commissionProjects = [
-    {
-      id: 1,
-      title: "E-commerce Platform",
-      description: "Custom online store with payment integration and comprehensive admin panel.",
-      tech: ["React", "Node.js", "MongoDB"],
-      image: "/test.jpg",
-    },
-    {
-      id: 2,
-      title: "Hospital Management System",
-      description: "Comprehensive system for patient records and appointment scheduling.",
-      tech: ["PHP", "MySQL", "Bootstrap"],
-      image: "/test.jpg",
-    },
-    {
-      id: 3,
-      title: "School Portal System",
-      description: "Student portal with grade viewing and assignment submission features.",
-      tech: ["Laravel", "MySQL", "Vue.js"],
-      image: "/test.jpg",
-    },
-    {
-      id: 4,
-      title: "Booking Management System",
-      description: "Online reservation system with calendar integration and notifications.",
-      tech: ["Python", "Django", "PostgreSQL"],
-      image: "/test.jpg",
-    },
-    {
-      id: 5,
-      title: "Analytics Dashboard",
-      description: "Interactive dashboard for business intelligence and data visualization.",
-      tech: ["React", "D3.js", "Express"],
-      image: "/test.jpg",
-    },
-  ]
-
-  const services = [
-    { title: "Capstone & Thesis Systems", desc: "Complete academic project solutions" },
-    { title: "Web Applications", desc: "PHP, Laravel, React, Next.js projects" },
-    { title: "Desktop Applications", desc: "Java Swing, Python PyQt6 programs" },
-    { title: "Console Programs", desc: "C++, Python, Java command-line tools" },
-    { title: "Static Websites", desc: "Modern responsive web designs" },
-    { title: "Custom Solutions", desc: "Any programming project you need" },
-  ]
+  const duplicatedTechStack = [...techStack, ...techStack];
 
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans antialiased">
@@ -143,7 +43,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="px-6 py-24 md:py-32">
+      <section className="px-6 py-24 md:py-32 ">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-slate-50 rounded-full px-4 py-2 text-sm font-medium text-slate-600 mb-8">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -176,29 +76,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Tech Stack Section */}
-      <section className="py-16 bg-slate-50/50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4">Technologies I Use</h2>
-          </div>
-          <div className="overflow-hidden">
-            <div className="flex animate-[scroll_20s_linear_infinite] whitespace-nowrap">
-              {[...techStack, ...techStack].map((tech, index) => {
-                const IconComponent = tech.icon
-                return (
-                  <div key={index} className="mx-6 flex-shrink-0">
-                    <div className="bg-white rounded-2xl px-6 py-4 shadow-sm border border-slate-100 flex items-center gap-3 hover:shadow-md transition-shadow duration-200">
-                      <IconComponent className="w-5 h-5 text-slate-600" />
-                      <span className="font-medium text-slate-700">{tech.name}</span>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
+      <TechStackSection />
+
+
 
       {/* System For Sale Section */}
       <section id="systems" className="px-6 py-24">
@@ -213,11 +93,11 @@ export default function HomePage() {
             {systemsForSale.map((system) => (
               <Card
                 key={system.id}
-                className={`p-0 group relative overflow-hidden border-0 shadow-sm hover:shadow-xl transition-all duration-300 bg-white rounded-2xl `}
+                className={`p-0 group relative overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white rounded-2xl `}
               >
                
-                <div className="absolute top-4 right-4 z-10">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 font-semibold text-slate-900">
+                <div className="absolute top-4 right-4 z-10 shadow-lg rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center">
+                  <div className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 font-semibold text-green-500">
                     {system.price}
                   </div>
                 </div>
@@ -280,7 +160,7 @@ export default function HomePage() {
               <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
               <div className="grid gap-4">
                 {services.map((service, index) => (
-                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100">
+                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
                     <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
@@ -327,10 +207,10 @@ export default function HomePage() {
             <p className="text-xl text-slate-600">Sample projects I've built for clients</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {commissionProjects.map((project) => (
+            {sampleProjects.map((project) => (
               <Card
                 key={project.id}
-                className=" p-0 group overflow-hidden border-0 shadow-sm hover:shadow-xl transition-all duration-300 bg-white rounded-2xl"
+                className=" p-0 group overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white rounded-2xl"
               >
                 <div className="aspect-[4/3] bg-gradient-to-br from-slate-50 to-slate-100 overflow-hidden">
                   <img
