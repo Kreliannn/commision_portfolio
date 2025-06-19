@@ -84,8 +84,68 @@ export default function HomePage() {
 
 
 
-      {/* System For Sale Section */}
-      <section id="systems" className="px-6 py-24">
+     
+
+      {/* Commission Info Section */}
+      <section id="commission" className="px-6 py-24 ">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Custom Development</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+              I accept commissions for all kinds of programming projects — built from scratch based on your specific
+              requirements.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+           
+
+            <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
+              <h3 className="text-2xl font-bold mb-6">Pricing Range</h3>
+              <div className="text-center mb-8">
+                <div className="text-4xl font-bold text-green-500 mb-2">₱1,000 - ₱5,000</div>
+                <p className="text-slate-600">Based on project complexity and timeline</p>
+              </div>
+              <div className="space-y-4 text-sm text-slate-600">
+                <div className="flex justify-between">
+                  <span>Simple console programs</span>
+                  <span className="font-medium">₱1,000 - ₱2,000</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Desktop applications</span>
+                  <span className="font-medium">₱2,000 - ₱3,500</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Web applications</span>
+                  <span className="font-medium">₱3,000 - ₱5,000</span>
+                </div>
+              </div>
+             
+            </div>
+
+
+             <div className="space-y-8">
+              <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
+              <div className="grid gap-4">
+                {services.map((service, index) => (
+                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
+                      <p className="text-slate-600 text-sm">{service.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+       {/* System For Sale Section */}
+      <section id="systems" className="px-6 py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Ready-Made Systems</h2>
@@ -148,121 +208,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Commission Info Section */}
-      <section id="commission" className="px-6 py-24 bg-slate-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Custom Development</h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-              I accept commissions for all kinds of programming projects — built from scratch based on your specific
-              requirements.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 mb-16">
-           
-
-            <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
-              <h3 className="text-2xl font-bold mb-6">Pricing Range</h3>
-              <div className="text-center mb-8">
-                <div className="text-4xl font-bold text-green-500 mb-2">₱1,000 - ₱5,000</div>
-                <p className="text-slate-600">Based on project complexity and timeline</p>
-              </div>
-              <div className="space-y-4 text-sm text-slate-600">
-                <div className="flex justify-between">
-                  <span>Simple console programs</span>
-                  <span className="font-medium">₱1,000 - ₱2,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Desktop applications</span>
-                  <span className="font-medium">₱2,000 - ₱3,500</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Web applications</span>
-                  <span className="font-medium">₱3,000 - ₱5,000</span>
-                </div>
-              </div>
-             
-            </div>
-
-
-             <div className="space-y-8">
-              <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
-              <div className="grid gap-4">
-                {services.map((service, index) => (
-                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
-                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
-                      <p className="text-slate-600 text-sm">{service.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* Commission Projects Gallery */}
-      <section className="px-6 py-24">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Recent Work</h2>
-            <p className="text-xl text-slate-600">Sample projects I've built for clients</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {sampleProjects.map((project) => (
-              <Card
-                key={project.id}
-                className=" p-0 group overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white rounded-2xl"
-              >
-                <div className="aspect-[4/3] bg-gradient-to-br from-slate-50 to-slate-100 overflow-hidden">
-                  <img
-                    src={project.image || "/placeholder.svg"}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <CardHeader className="p-6">
-                  <CardTitle className="text-xl font-semibold mb-2">{project.title}</CardTitle>
-                  <CardDescription className="text-slate-600 leading-relaxed">{project.description}</CardDescription>
-                </CardHeader>
-                <CardContent className="px-6 pb-6">
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {project.tech.map((tech) => (
-                      <Badge
-                        key={tech}
-                        variant="secondary"
-                        className="bg-slate-100 text-slate-700 hover:bg-slate-200 rounded-full px-3 py-1"
-                      >
-                        {tech}
-                      </Badge>
-                    ))}
-                  </div>
-                  <Button
-                    variant="outline"
-                    className="w-full border-slate-200 text-slate-700 hover:bg-slate-50 rounded-xl py-3 font-medium"
-                  >
-                    Case Study
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
+  
       {/* Footer */}
       <footer className="bg-slate-900 text-white px-6 py-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center">
-                <Heart className="w-5 h-5 text-slate-900 fill-slate-900" />
-              </div>
-              <span className="text-2xl font-semibold">Blank</span>
+           
+              <span className="text-2xl font-semibold">K ian Dev</span>
             </div>
             <p className="text-slate-400 max-w-md mx-auto">
               Creating custom programming solutions for students and businesses.
