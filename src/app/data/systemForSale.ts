@@ -5,7 +5,7 @@ export const systemsForSale = [
       description: "Complete system for managing student records, grades, and enrollment with intuitive dashboard.",
       tech: ["PHP", "MySQL", "Bootstrap"],
       price: "₱2,500",
-      image: "/test.jpg",
+      image: "/system.png",
       featured: false,
     },
     {
@@ -14,7 +14,7 @@ export const systemsForSale = [
       description: "Track products, manage stock levels, and generate comprehensive reports.",
       tech: ["Java", "MySQL", "Swing"],
       price: "₱3,000",
-      image: "/test.jpg",
+      image: "/system.png",
       featured: false,
     },
     {
@@ -23,7 +23,7 @@ export const systemsForSale = [
       description: "Manage books, borrowers, and library transactions efficiently.",
       tech: ["Python", "SQLite", "PyQt6"],
       price: "₱2,800",
-      image: "/test.jpg",
+      image: "/system.png",
       featured: false,
     },
   
