@@ -4,5 +4,4 @@ export  const services = [
     { title: "Desktop Applications", desc: "Java Swing, Python PyQt6 programs" },
     { title: "Console Programs", desc: "C++, Python, Java command-line tools" },
     { title: "Static Websites", desc: "Modern responsive web designs" },
-    { title: "Custom Solutions", desc: "Any programming project you need" },
   ]

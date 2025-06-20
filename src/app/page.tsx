@@ -100,7 +100,24 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
            
 
-            <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
+         
+
+             <div className="space-y-8">
+              <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
+              <div className="grid gap-4">
+                {services.map((service, index) => (
+                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
+                      <p className="text-slate-600 text-sm">{service.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+   <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
               <h3 className="text-2xl font-bold mb-6">Pricing Range</h3>
               <div className="text-center mb-8">
                 <div className="text-4xl font-bold text-green-500 mb-2">₱1,000 - ₱5,000</div>
@@ -124,20 +141,7 @@ export default function HomePage() {
             </div>
 
 
-             <div className="space-y-8">
-              <h3 className="text-2xl font-semibold mb-6">What I Build</h3>
-              <div className="grid gap-4">
-                {services.map((service, index) => (
-                  <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-lg">
-                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-3 flex-shrink-0"></div>
-                    <div>
-                      <h4 className="font-semibold text-slate-900 mb-1">{service.title}</h4>
-                      <p className="text-slate-600 text-sm">{service.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+
 
           </div>
         </div>
@@ -160,8 +164,8 @@ export default function HomePage() {
                 className={`p-0 group relative overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white rounded-2xl `}
               >
                
-                <div className="absolute top-4 right-4 z-10 shadow-lg rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 font-semibold text-green-500">
+                <div className="absolute top-2 right-2 border border-green-500 z-10 shadow-lg rounded-full bg-white/70 backdrop-blur-sm flex items-center justify-center">
+                  <div className="bg-white/70 backdrop-blur-sm rounded-full px-3 py-1 font-bold text-green-500 text-2xl">
                     {system.price}
                   </div>
                 </div>
