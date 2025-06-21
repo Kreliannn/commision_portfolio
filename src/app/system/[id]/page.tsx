@@ -6,16 +6,14 @@ import Footer from "@/app/components/footer"
 
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-
-
-export default function System({ params } : PageProps) {
-  
-  const system = systemsForSale.find((sys) => sys.id.toString() === params.id);
+export default async function System({ params }: PageProps) {
+  const { id } = await params;
+  const system = systemsForSale.find((sys) => sys.id.toString() === id);
 
   if (!system) {
     return (
