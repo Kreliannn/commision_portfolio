@@ -11,7 +11,8 @@ import TechStackSection from "./components/techStackSection"
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import { useRouter } from "next/navigation"
-import TransactionMobile from "./components/systemImages"
+import TransactionMobile from "./components/transactionImgMobile"
+import TransactionDesktop from "./components/transactionImgDesktop"
 
 function truncateString(str : string) {
     const maxLength = 150;
@@ -270,6 +271,7 @@ export default function HomePage() {
            Past transactions with my clients to show trust and transparency.
         </p>
         <TransactionMobile />
+        <TransactionDesktop />
       </div>
         
      

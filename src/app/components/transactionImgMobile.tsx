@@ -13,7 +13,7 @@ import { transactions } from "../data/proof"
 
 export default function TransactionMobile() {
   return (
-    <Carousel className="m-auto h-auto w-72" >
+    <Carousel className="m-auto h-auto w-72 md:hidden" >
       <CarouselContent>
         {transactions.map((transaction, index) => (
           <CarouselItem key={index} >
