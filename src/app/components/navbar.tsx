@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
 
         {pathname !== "/" && (
-          <div className="hidden md:flex items-center gap-8">
+          <div className=" md:flex items-center gap-8">
             <p
               onClick={() => router.push("/")}
               className="text-slate-600 hover:text-slate-900 transition-colors duration-200 font-medium cursor-pointer"
