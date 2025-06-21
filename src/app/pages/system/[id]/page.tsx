@@ -15,8 +15,7 @@ interface PageProps {
 
 export default async function System({ params } : PageProps) {
   
-  const { id } = await params;
-  const system = systemsForSale.find((sys) => sys.id.toString() === id)
+  const system = systemsForSale.find((sys) => sys.id.toString() === params.id);
 
   if (!system) {
     return (
