@@ -73,7 +73,7 @@ export default function HomePage() {
       <section id="commission" className="px-6 py-24 ">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Custom Development</h2>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Open For Commission</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
               I accept commissions for all kinds of programming projects — built from scratch based on your specific
               requirements.
