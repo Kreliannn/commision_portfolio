@@ -5,7 +5,15 @@ import { Tag, DollarSign, Info, ImageIcon } from "lucide-react"
 import Footer from "@/app/components/footer"
 
 
-export default function System({ params }: { params: { id: string } }) {
+interface PageProps {
+  params: {
+    id: string;
+  };
+}
+
+
+
+export default function System({ params } : PageProps) {
   const system = systemsForSale.find((sys) => sys.id.toString() === params.id)
 
   if (!system) {
