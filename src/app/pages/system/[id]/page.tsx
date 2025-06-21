@@ -13,7 +13,7 @@ interface PageProps {
 
 
 
-export default async function System({ params } : PageProps) {
+export default function System({ params } : PageProps) {
   
   const system = systemsForSale.find((sys) => sys.id.toString() === params.id);
 
