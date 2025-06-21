@@ -72,11 +72,6 @@ export default function System({ params }: { params: { id: string } }) {
           </div>
         </div>
 
-        <div className="mb-10">
-          <Button variant="default" size="lg" className="w-full bg-green-500 hover:bg-green-800 text-white rounded-xl py-3 font-bold transition-colors duration-200 shadow-lg">
-            How To Buy
-          </Button>
-        </div>
 
         
 
@@ -85,7 +80,7 @@ export default function System({ params }: { params: { id: string } }) {
           <div className="mb-10">
             <div className="flex items-center gap-3 mb-6">
               <ImageIcon className="w-5 h-5 text-gray-700" />
-              <h2 className="text-xl font-medium text-gray-900">Gallery</h2>
+              <h2 className="text-xl font-medium text-gray-900"> System Preview </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {system.images.map((img, index) => (
@@ -104,12 +99,83 @@ export default function System({ params }: { params: { id: string } }) {
           </div>
         )}
 
-        {/* Action Section */}
-          <div className="mb-10">
-          <Button variant="default" size="lg" className="w-full bg-green-500 hover:bg-green-800 text-white rounded-xl py-3 font-bold transition-colors duration-200 shadow-lg">
-            How To Buy
-          </Button>
+    
+      {/* How to Buy Section */}
+      <div className="max-w-2xl mx-auto p-6">
+      <div className="mb-10">
+        <h2 className="text-2xl font-bold mb-6">How to Buy</h2>
+        <p className="text-slate-700 mb-6">You can purchase by messaging me directly on:</p>
+
+        <div className="space-y-4 mb-8">
+          {/* TikTok */}
+          <div className="flex items-center gap-4 p-4  rounded-lg hover:bg-stone-50 bg-white shadow-lg" >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
+              alt="TikTok"
+              className="w-10 h-10 rounded-lg"
+            />
+            <div className="flex-1">
+              <h3 className="font-semibold">TikTok</h3>
+              <p className="text-slate-600">@krelq</p>
+            </div>
+            <a
+              href="https://www.tiktok.com/@krelq"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"
+            >
+              View Profile
+            </a>
+          </div>
+
+          {/* Facebook */}
+          <div className="flex items-center gap-4 p-4  rounded-lg hover:bg-stone-50 bg-white shadow-lg">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+              alt="Facebook"
+              className="w-10 h-10 rounded-lg"
+            />
+            <div className="flex-1">
+              <h3 className="font-semibold">Facebook</h3>
+              <p className="text-slate-600">K ian Dev</p>
+            </div>
+            <a
+              href="https://www.facebook.com/profile.php?id=61577572921830"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+            >
+              View Profile
+            </a>
+          </div>
         </div>
+
+        {/* Quick Links */}
+        <div className="flex gap-4 justify-center">
+          <a
+            href="https://www.tiktok.com/@krelq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-slate-600 hover:text-black transition-colors"
+          >
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" className="w-5 h-5" />
+            @krelq
+          </a>
+          <span className="text-slate-400">•</span>
+          <a
+            href="https://www.facebook.com/profile.php?id=61577572921830"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
+          >
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" className="w-5 h-5" />K ian
+            Dev
+          </a>
+        </div>
+      </div>
+    </div>
+
+
 
       </div>
 

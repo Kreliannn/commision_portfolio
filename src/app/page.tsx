@@ -12,6 +12,14 @@ import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import { useRouter } from "next/navigation"
 
+function truncateString(str : string) {
+    const maxLength = 150;
+    const suffix = "........";
+    if (str.length <= maxLength) return str;
+    return str.slice(0, maxLength - suffix.length) + suffix;
+}
+
+
 export default function HomePage() {
 
   const router = useRouter();
@@ -47,7 +55,7 @@ export default function HomePage() {
               size="lg"
               variant="outline"
               className="border-2 border-slate-200 text-slate-700 hover:bg-slate-50 px-8 py-4 rounded-xl font-medium transition-all duration-200"
-              onClick={() => document.getElementById("commission")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => router.push("/pages/commision")}
             >
               Custom Commission
             </Button>
@@ -92,22 +100,18 @@ export default function HomePage() {
             <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
               <h3 className="text-2xl font-bold mb-6">Pricing Range</h3>
               <div className="text-center mb-8">
-                <div className="text-4xl font-bold text-green-500 mb-2">₱1,000 - ₱5,000</div>
+                <div className="text-4xl font-bold text-green-500 mb-2">₱250 - ₱5,000</div>
                 <p className="text-slate-600">Based on project complexity and timeline</p>
               </div>
               <div className="space-y-4 text-sm text-slate-600">
-                <div className="flex justify-between">
-                  <span>Simple console programs</span>
-                  <span className="font-medium">₱1,000 - ₱2,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Desktop applications</span>
-                  <span className="font-medium">₱2,000 - ₱3,500</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Web applications</span>
-                  <span className="font-medium">₱3,000 - ₱5,000</span>
-                </div>
+                {
+                  services.map((service, index) => (
+                    <div key={index} className="flex justify-between">
+                      <span>{service.title}</span>
+                      <span className="font-medium">{service.price}</span>
+                    </div>
+                  ))
+                }
               </div>
              
             </div>
@@ -120,11 +124,14 @@ export default function HomePage() {
        {/* System For Sale Section */}
       <section id="systems" className="px-6 py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Ready-Made Systems</h2>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Production-ready systems that you can use immediately for your projects
-            </p>
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-5">Systems For Sale </h2>
+            
+            <div className="inline-flex items-center gap-2 bg-white shadow-lg rounded-full px-4 py-2 text-sm font-medium text-slate-600 ">
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              {systemsForSale.length} Available System
+            </div>
+
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {systemsForSale.map((system) => (
@@ -147,7 +154,7 @@ export default function HomePage() {
                 </div>
                 <CardHeader className="">
                   <CardTitle className="text-xl font-semibold mb-2">{system.title}</CardTitle>
-                  <CardDescription className="text-slate-600 leading-relaxed">{system.description}</CardDescription>
+                  <CardDescription className="text-slate-600 leading-relaxed">{truncateString(system.description)}</CardDescription>
                 </CardHeader>
                 <CardContent className="px-6 pb-6">
                   <div className="flex flex-wrap gap-2 mb-6">
