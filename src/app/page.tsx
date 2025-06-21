@@ -11,6 +11,7 @@ import TechStackSection from "./components/techStackSection"
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import { useRouter } from "next/navigation"
+import TransactionMobile from "./components/systemImages"
 
 function truncateString(str : string) {
     const maxLength = 150;
@@ -262,6 +263,16 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <div className="bg-white py-10 w-5/6 m-auto ">
+        <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-5 text-center"> Proof Of Legitimacy </h1>
+        <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-center mb-5">
+           Past transactions with my clients to show trust and transparency.
+        </p>
+        <TransactionMobile />
+      </div>
+        
+     
 
   
       {/* Footer */}

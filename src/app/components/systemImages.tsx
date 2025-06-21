@@ -8,26 +8,22 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { transactions } from "../data/proof"
 
-export default function SystemImages({ images }: { images: string[] }) {
+
+export default function TransactionMobile() {
   return (
-    <Carousel
-      opts={{
-        align: "start",
-      }}
-      orientation="vertical"
-      className="w-full max-w-xs"
-    >
-      <CarouselContent className="-mt-1 h-[200px]">
-        {images.map((img, index) => (
-          <CarouselItem key={index} className="pt-1 md:basis-1/2">
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex items-center justify-center p-6">
+    <Carousel className="m-auto h-auto w-72" >
+      <CarouselContent>
+        {transactions.map((transaction, index) => (
+          <CarouselItem key={index} >
+            <div className="p-1 h-auto w-72">
+              <Card className=" ">
+                <CardContent className="flex aspect-square items-center justify-center p-0 ">
                   <img
-                    src={img}
-                    alt={`System image ${index + 1}`}
-                    className="object-contain max-h-40"
+                    src={transaction}
+                    alt={`Transaction ${index + 1}`}
+                    className="h-full w-full object-cover"
                   />
                 </CardContent>
               </Card>
