@@ -170,7 +170,7 @@ export default function HomePage() {
                   </div>
                   <Button 
                     className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-xl py-3 font-medium transition-colors duration-200"
-                    onClick={() => router.push(`/pages/system/${system.id}`)}
+                    onClick={() => router.push(`/system/${system.id}`)}
                   >
                     View Details
                   </Button>
