@@ -29,12 +29,12 @@ export default async function System({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="max-w-4xl mx-auto px-6 py-7">
 
         <img
           src={system?.image || "/placeholder.svg"}
           alt={`${system.title}`}
-          className="block md:hidden  w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 mb-5"
+          className="rounded-lg shadow-lg block md:hidden  w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 mb-5"
         />
 
         {/* Header Section */}
@@ -119,7 +119,7 @@ export default async function System({ params }: PageProps) {
             <img
               src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
               alt="TikTok"
-              className="w-10 h-10 rounded-lg"
+              className="w-10 h-10 rounded-lg "
             />
             <div className="flex-1">
               <h3 className="font-semibold">TikTok</h3>

@@ -41,26 +41,9 @@ After completing a quiz, users receive a performance breakdown including:
       image: "/system.png",
       images: ["/system.png", "/system.png", "/system.png", "/system.png"],
       information : `
-        Features
-        🧠 Generate Reviewers
-        Auto-Generate Questions & Answers – Converts content into a structured Q&A format using Gemeni api.
-        Upload Multiple PDFs – Process multiple PDF files at once and create on organized reviewer.
-        ✏Modify Output – Users can edit, add, or remove generated questions before saving.
-        save Reviewer – reviewer automaticaly save to database.
-        🎯 Take Personalized Quizzes
-        Once a reviewer is saved, users can start a quiz based on that content.
-        The quiz experience is adaptive and flexible:
-        quiz is shuffle in every take
-        Option to filter questions (user can pick what the scope of his quiz)
-        Option to pass a question if he/she dont know the answer
-        Use a text input for answers or see multiple choice box options
-        📊 Track Performance Visually
-        After completing a quiz, users receive a performance breakdown including:
-
-        📈 A visual chart (e.g., pie)
-        ✅ Number of correct answers
-        ❌ Number of wrong answers
-        ⏭️ Number of passed questions
+        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
       `
     },
     {
@@ -72,9 +55,53 @@ After completing a quiz, users receive a performance breakdown including:
       image: "/system.png",
       images: ["/system.png", "/system.png", "/system.png", "/system.png"],
       information : `
-        lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
       `
     },
+        {
+      id: 4,
+      title: "Inventory Management System",
+      description: "Track products, manage stock levels, and generate comprehensive reports.",
+      tech: ["Java", "MySQL", "Swing"],
+      price: "₱300",
+      image: "/system.png",
+      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
+      information : `
+        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      `
+    },
+    {
+      id: 5,
+      title: "Library Management System",
+      description: "Manage books, borrowers, and library transactions efficiently.",
+      tech: ["Python", "SQLite", "PyQt6"],
+      price: "₱800",
+      image: "/system.png",
+      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
+      information : `
+        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      `
+    },
+      {
+      id: 6,
+      title: "Inventory Management System",
+      description: "Track products, manage stock levels, and generate comprehensive reports.",
+      tech: ["Java", "MySQL", "Swing"],
+      price: "₱300",
+      image: "/system.png",
+      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
+      information : `
+        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      `
+    },
+    
   
   ]

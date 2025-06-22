@@ -10,14 +10,14 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center">
+          <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center">
             <img
               src={"/logo.jpg"}
               alt={"Kian Dev Logo"}
               className="w-full h-full rounded-lg object-cover group-hover:scale-105 transition-transform duration-300"
             />
           </div>
-          <span className="text-xl font-semibold tracking-tight">ian Dev</span>
+          <span className="text-xl font-semibold tracking-tight">KRLN</span>
         </div>
 
         {pathname !== "/" && (
