@@ -4,7 +4,7 @@ export const systemsForSale = [
       title: "Pharmacy Management System",
       description: "The pharmacy system management platform lets users manage medicines, track inventory, and process sales efficiently. It includes features for adding/editing medicine records, monitoring stock and expiry, managing suppliers and customers, and generating reports—all accessible from a central dashboard.",
       tech: ["React", "Node js", "Mongo db"],
-      price: "₱200",
+      price: "₱700",
       image: "/system/pharmacysystem.png",
       images: ["/system_preview/pharmacysystem (1).jpg", "/system_preview/pharmacysystem (2).jpg", "/system_preview/pharmacysystem (3).jpg", "/system_preview/pharmacysystem (4).jpg", "/system_preview/pharmacysystem (5).jpg", "/system_preview/pharmacysystem (6).jpg", "/system_preview/pharmacysystem (7).jpg", "/system_preview/pharmacysystem (8).jpg", ],
       information : `
@@ -39,6 +39,25 @@ Admins have access to a centralized dashboard where they can monitor all busines
       images: ["/system_preview/bookswap (1).png", "/system_preview/bookswap (2).png", "/system_preview/bookswap (3).png", "/system_preview/bookswap (4).png",, "/system_preview/bookswap (5).png", "/system_preview/bookswap (6).png", "/system_preview/bookswap (7).png", "/system_preview/bookswap (8).png", "/system_preview/bookswap (9).png",, "/system_preview/bookswap (10).png"],
       information : `
 The platform provides several features for users to facilitate book swapping. Users can post books they’ve finished reading and are willing to swap. They can also set up a wishlist of books they want to receive. When someone is interested in a swap, users can receive and review the swap requests, then choose which request they want to accept. To help finalize the details, users can chat with one another directly. Additionally, the platform allows users to track the status of each swap request, including whether it is pending, accepted, completed, or rejected.
+      `
+    }, 
+    {
+      id: 4,
+      title: "Tenant-Landlord Rental Platform",
+      description: "A platform that connects tenants and landlords with map integration for property listings and real-time chat for seamless communication. Landlords can list and manage rentals, while tenants can browse, apply, and chat instantly.",
+      tech: ["Php", "MySQL", "Bootstrap"],
+      price: "₱900",
+      image: "/system/quicktiraa.png",
+      images: ["/system_preview/quicktira (1).jpg", "/system_preview/quicktira (2).jpg", "/system_preview/quicktira (3).jpg", "/system_preview/quicktira (4).jpg",, "/system_preview/quicktira (5).jpg", "/system_preview/quicktira (6).jpg", "/system_preview/quicktira (7).jpg", "/system_preview/quicktira (8).jpg", "/system_preview/quicktira (9).jpg",, "/system_preview/quicktira (10).jpg", "/system_preview/quicktira (11).jpg", "/system_preview/quicktira (12).jpg", "/system_preview/quicktira (13).jpg", ],
+      information : `
+Landlord Features:
+Landlords can post their properties with images and detailed information to attract potential tenants. They have the ability to set the exact property location on the map and manage all their listings, including editing or deleting posts. Landlords can also accept rent requests from tenants, respond to messages, and update their account information as needed.
+
+Tenant Features:
+Tenants can view all available property listings and see them displayed on the map for easier location tracking. They can send private messages to landlords, bookmark and like property posts, and apply to rent a property. Additional features include reporting landlord posts, editing account details, tracking the status of their rental applications, and viewing landlord profiles.
+
+Admin Features:
+Admins are responsible for maintaining the platform's integrity. They can ban inappropriate property posts and user accounts, manage reports submitted by users, and verify landlord accounts for authenticity. An admin dashboard is provided to efficiently oversee and manage all platform activities.
       `
     },
        
