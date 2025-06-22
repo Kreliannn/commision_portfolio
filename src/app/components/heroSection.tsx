@@ -22,7 +22,7 @@ export default function HeroSection() {
               className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-xl font-medium transition-all duration-200 shadow-lg hover:shadow-xl group"
               onClick={() => document.getElementById("systems")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Browse Systems
+              System for sale
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
