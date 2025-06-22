@@ -1,4 +1,3 @@
-
 import TechStackSection from "./components/techStackSection"
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"

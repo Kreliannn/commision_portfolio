@@ -40,11 +40,22 @@ export default function CommissionSection() {
 
 
              <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-lg">
-             
-               <div className="max-w-2xl mx-auto p-6">
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold mb-6">Interested?</h2>
-                  <p className="text-slate-700 mb-6">You can avail my service by messaging me directly on:</p>
+
+               <div className="max-w-2xl mx-auto">
+                <div className=" m-auto">
+                  {/* edit this*/}
+                  <div className="mb-8">
+                    <h2 className="text-xl font-bold mb-2">  What's Included? </h2>
+                    <ul className="list-disc list-inside text-slate-600 space-y-2 text-sm">
+                        <li>Complete system setup on your device</li>
+                        <li>Sytem demonstration first, before payment</li>
+                        <li>Daily progress reports and updates</li>
+                        <li>bug fixes and technical support if issues occur</li>
+                    </ul>             
+                  </div>
+                  
+                  <h2 className="text-xl font-bold mb-1">Interested?</h2>
+                  <p className="text-slate-500 mb-4 text-sm">You can avail my service by messaging me directly on:</p>
 
                   <div className="space-y-4 mb-8">
                     {/* TikTok */}
@@ -90,32 +101,10 @@ export default function CommissionSection() {
                     </div>
                   </div>
 
-                  {/* Quick Links */}
-                  <div className="flex gap-4 justify-center">
-                    <a
-                      href="https://www.tiktok.com/@krelq"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-slate-600 hover:text-black transition-colors"
-                    >
-                      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" className="w-5 h-5" />
-                      @krelq
-                    </a>
-                    <span className="text-slate-400">•</span>
-                    <a
-                      href="https://www.facebook.com/profile.php?id=61577572921830"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
-                    >
-                      <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" className="w-5 h-5" />K ian
-                      Dev
-                    </a>
-                  </div>
+                
+                
                 </div>
               </div>  
-
-
 
             </div>
 
