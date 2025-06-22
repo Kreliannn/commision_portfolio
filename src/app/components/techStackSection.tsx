@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect } from 'react';
 import { techStack } from '../data/techStack';
 
@@ -29,7 +30,6 @@ const TechStackSection = () => {
   const duplicatedTechStack = [...techStack, ...techStack, ...techStack];
 
   return (
-      <section className="py-5 bg-slate-50/50 w-full">
         <div className="">
           <div className="text-center mb-3">
             <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4">
@@ -61,7 +61,6 @@ const TechStackSection = () => {
             </div>
           </div>
         </div>
-      </section>
   );
 };
 
