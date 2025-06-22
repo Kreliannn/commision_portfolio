@@ -89,11 +89,11 @@ export default async function System({ params }: PageProps) {
               <ImageIcon className="w-5 h-5 text-gray-700" />
               <h2 className="text-xl font-medium text-gray-900"> System Preview </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4">
               {system.images.map((img, index) => (
                 <div
                   key={index}
-                  className="group relative aspect-square overflow-hidden rounded-lg border border-gray-200 bg-gray-100"
+                  className="group relative  overflow-hidden rounded-lg border border-gray-200 bg-gray-100 shadow-lg"
                 >
                   <img
                     src={img || "/placeholder.svg"}
