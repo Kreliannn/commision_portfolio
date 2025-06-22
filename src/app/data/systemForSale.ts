@@ -1,35 +1,14 @@
 export const systemsForSale = [
     {
       id: 1,
-      title: "Student Management System",
-      description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
-      tech: ["PHP", "MySQL", "Bootstrap"],
+      title: "Pharmacy Management System",
+      description: "The pharmacy system management platform lets users manage medicines, track inventory, and process sales efficiently. It includes features for adding/editing medicine records, monitoring stock and expiry, managing suppliers and customers, and generating reports—all accessible from a central dashboard.",
+      tech: ["React", "Node js", "Mongo db"],
       price: "₱200",
       image: "/system/pharmacysystem.png",
       images: ["/system_preview/pharmacysystem (1).jpg", "/system_preview/pharmacysystem (2).jpg", "/system_preview/pharmacysystem (3).jpg", "/system_preview/pharmacysystem (4).jpg", "/system_preview/pharmacysystem (5).jpg", "/system_preview/pharmacysystem (6).jpg", "/system_preview/pharmacysystem (7).jpg", "/system_preview/pharmacysystem (8).jpg", ],
       information : `
-✨ Features
-
-🧠 Generate Reviewers
-- Auto-Generate Questions & Answers – Converts content into a structured Q&A format using the Gemini API.
-- Upload Multiple PDFs – Process multiple PDF files at once and create one organized reviewer.
-- Modify Output – Users can edit, add, or remove generated questions before saving.
-- Save Reviewer – Reviewer automatically saves to the database.
-
-🎯 Take Personalized Quizzes
-- Once a reviewer is saved, users can start a quiz based on that content.
-- The quiz experience is adaptive and flexible:
-  • Quiz is shuffled every time it's taken
-  • Option to filter questions (user can pick the scope of their quiz)
-  • Option to pass a question if they don't know the answer
-  • Use a text input for answers or select from multiple-choice options
-
-📊 Track Performance Visually
-After completing a quiz, users receive a performance breakdown including:
-- A visual chart (e.g., pie)
-- Number of correct answers ✅
-- Number of wrong answers ❌
-- Number of passed questions ⏭️
+The pharmacy system management platform offers a comprehensive set of tools to streamline daily operations. Users can log in securely to access a personalized dashboard where they can manage medicines, monitor inventory levels, and process sales efficiently. The system allows adding, editing, or removing medicine records, including details like stock quantity, price, and expiry dates. Inventory management features include low-stock alerts and expiry tracking to help maintain adequate supplies. Sales processing is made simple through a point-of-sale interface where staff can select medicines, input quantities, and automatically calculate totals. Additionally, the platform includes modules for managing suppliers, viewing customer records, and generating detailed reports to analyze business performance. A settings section lets administrators customize system preferences and user access.
     `
     },
     {
@@ -52,60 +31,17 @@ Admins have access to a centralized dashboard where they can monitor all busines
     },
     {
       id: 3,
-      title: "Library Management System",
-       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
-      tech: ["Python", "SQLite", "PyQt6"],
+      title: "Book Swap Platform",
+      description: "A platform where users can post books they have already read and receive book swap requests from others user. Users can browse available books, send swap requests, and connect with fellow readers. The book owner has full control over which request to accept, making book exchanges simple and convenient.",
+      tech: ["Php", "MySQL", "Bootstrap"],
       price: "₱800",
-      image: "/system.png",
-      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
+      image: "/system/bookswap.png",
+      images: ["/system_preview/bookswap (1).png", "/system_preview/bookswap (2).png", "/system_preview/bookswap (3).png", "/system_preview/bookswap (4).png",, "/system_preview/bookswap (5).png", "/system_preview/bookswap (6).png", "/system_preview/bookswap (7).png", "/system_preview/bookswap (8).png", "/system_preview/bookswap (9).png",, "/system_preview/bookswap (10).png"],
       information : `
-        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+The platform provides several features for users to facilitate book swapping. Users can post books they’ve finished reading and are willing to swap. They can also set up a wishlist of books they want to receive. When someone is interested in a swap, users can receive and review the swap requests, then choose which request they want to accept. To help finalize the details, users can chat with one another directly. Additionally, the platform allows users to track the status of each swap request, including whether it is pending, accepted, completed, or rejected.
       `
     },
-        {
-      id: 4,
-      title: "Inventory Management System",
-       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
-      tech: ["Java", "MySQL", "Swing"],
-      price: "₱300",
-      image: "/system.png",
-      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
-      information : `
-        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      `
-    },
-    {
-      id: 5,
-      title: "Library Management System",
-       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
-      tech: ["Python", "SQLite", "PyQt6"],
-      price: "₱800",
-      image: "/system.png",
-      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
-      information : `
-        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      `
-    },
-      {
-      id: 6,
-      title: "Inventory Management System",
-       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
-      tech: ["Java", "MySQL", "Swing"],
-      price: "₱300",
-      image: "/system.png",
-      images: ["/system.png", "/system.png", "/system.png", "/system.png"],
-      information : `
-        lorem ipsum dolor sit amet, consectetur adipiscing elit.  lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      `
-    },
+       
     
   
   ]
