@@ -88,7 +88,7 @@ export default function CommissionSection() {
                       />
                       <div className="flex-1">
                         <h3 className="font-semibold">Facebook</h3>
-                        <p className="text-slate-600">K ian Dev</p>
+                        <p className="text-slate-600">KRLN</p>
                       </div>
                       <a
                         href="https://www.facebook.com/profile.php?id=61577572921830"

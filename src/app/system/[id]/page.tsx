@@ -131,7 +131,7 @@ export default async function System({ params }: PageProps) {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"
             >
-              View Profile
+              Visit
             </a>
           </div>
 
@@ -144,7 +144,7 @@ export default async function System({ params }: PageProps) {
             />
             <div className="flex-1">
               <h3 className="font-semibold">Facebook</h3>
-              <p className="text-slate-600">K ian Dev</p>
+              <p className="text-slate-600">KRLN</p>
             </div>
             <a
               href="https://www.facebook.com/profile.php?id=61577572921830"
@@ -152,7 +152,7 @@ export default async function System({ params }: PageProps) {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
             >
-              View Profile
+              Visit
             </a>
           </div>
         </div>

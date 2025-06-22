@@ -27,7 +27,11 @@ export default function SystemForSale()
 
             {isLoading && <LoadingPage />}
 
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-5">Systems For Sale </h2>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-3">Systems For Sale </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed text-center mb-5">
+              I sell ready-made systems including free full system setup on your device, and free system name and logo customization.
+            </p>
+
             
             <div className="inline-flex items-center gap-2 bg-white shadow-lg rounded-full px-4 py-2 text-sm font-medium text-slate-600 ">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
