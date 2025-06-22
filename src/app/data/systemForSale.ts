@@ -35,7 +35,7 @@ After completing a quiz, users receive a performance breakdown including:
     {
       id: 2,
       title: "Inventory Management System",
-      description: "Track products, manage stock levels, and generate comprehensive reports.",
+      description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
       tech: ["Java", "MySQL", "Swing"],
       price: "₱300",
       image: "/system.png",
@@ -49,7 +49,7 @@ After completing a quiz, users receive a performance breakdown including:
     {
       id: 3,
       title: "Library Management System",
-      description: "Manage books, borrowers, and library transactions efficiently.",
+       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
       tech: ["Python", "SQLite", "PyQt6"],
       price: "₱800",
       image: "/system.png",
@@ -63,7 +63,7 @@ After completing a quiz, users receive a performance breakdown including:
         {
       id: 4,
       title: "Inventory Management System",
-      description: "Track products, manage stock levels, and generate comprehensive reports.",
+       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
       tech: ["Java", "MySQL", "Swing"],
       price: "₱300",
       image: "/system.png",
@@ -77,7 +77,7 @@ After completing a quiz, users receive a performance breakdown including:
     {
       id: 5,
       title: "Library Management System",
-      description: "Manage books, borrowers, and library transactions efficiently.",
+       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
       tech: ["Python", "SQLite", "PyQt6"],
       price: "₱800",
       image: "/system.png",
@@ -91,7 +91,7 @@ After completing a quiz, users receive a performance breakdown including:
       {
       id: 6,
       title: "Inventory Management System",
-      description: "Track products, manage stock levels, and generate comprehensive reports.",
+       description: "A Responsive web app that use Ai to turn pdf files into Structured Q&A type Reviewer. user can customize the generated output before saving, and take personalized quizzes based on the saved Reviewer. The quiz allows filtering, skipping questions, and allow uset to choose between input and multiple-choice modes. After completing a quiz, users get a visual breakdown of their performance including correct, wrong, and skipped answers.",
       tech: ["Java", "MySQL", "Swing"],
       price: "₱300",
       image: "/system.png",
