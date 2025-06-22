@@ -60,7 +60,41 @@ Admin Features:
 Admins are responsible for maintaining the platform's integrity. They can ban inappropriate property posts and user accounts, manage reports submitted by users, and verify landlord accounts for authenticity. An admin dashboard is provided to efficiently oversee and manage all platform activities.
       `
     },
-       
+    {
+      id: 5,
+      title: "Quiz Management System",
+      description: "This secure quiz-taking system is designed to help teachers manage quizzes effectively while preventing student cheating. It features an anti-cheating mechanism that automatically submits a quiz and flags it if a student switches tabs or leaves the quiz window. Teachers can create quizzes with time limits, set deadlines, view and filter student scores, and track overall performance. Meanwhile, students can view available quizzes, take them within the given time, and review their quiz history to monitor their progress.",
+      tech: ["Php", "MySQL", "Bootstrap"],
+      price: "₱500",
+      image: "/system/profsystem.png",
+      images: ["/system_preview/profsystem (1).jpg", "/system_preview/profsystem (2).jpg", "/system_preview/profsystem (3).jpg", "/system_preview/profsystem (4).jpg",, "/system_preview/profsystem (5).jpg", "/system_preview/profsystem (6).jpg", "/system_preview/profsystem (7).jpg", "/system_preview/profsystem (8).jpg", "/system_preview/profsystem (9).jpg",, "/system_preview/profsystem (10).jpg", ],
+      information : `
+System Overview
+This secure quiz-taking system is designed to prevent cheating and enhance overall quiz management. One of its key features is the anti-cheating mechanism: students are not allowed to switch tabs during a quiz. If a student attempts to Alt+Tab or navigate away from the quiz window, the system will automatically submit their quiz and flag it with a cheating status. This status is visible to the teacher for transparency and accountability.
+
+For Teachers
+Teachers have full control over quiz creation and management. They can create quizzes with customizable time limits, deadlines, and subject tags. After students complete the quizzes, teachers can view all student scores and track their performance. To make evaluation easier, the system includes filtering options that help teachers sort and analyze student data efficiently.
+
+For Students
+Students can access and view all quizzes assigned to them by their teachers. Each quiz comes with a clear time limit and must be completed within the specified window. Once completed, students can review their quiz history, including past scores and performance metrics, allowing them to monitor their progress over time.
+      `
+    },
+    {
+      id: 6,
+      title: "Canteen Reservasion System",
+      description: "This food reservation system allows students to reserve meals in advance while enabling canteen staff to efficiently manage food items, stock, and reservation orders. Canteen staff can update the menu, monitor stock levels, accept or reject orders, and track pickup schedules. Students can create accounts, place orders, and track their order status, making the process more convenient and organized for both sides.",
+      tech: ["Php", "MySQL", "Bootstrap"],
+      price: "₱700",
+      image: "/system/canteensystem.png",
+      images: ["/system_preview/canteensystem (1).png", "/system_preview/canteensystem (2).png", "/system_preview/canteensystem (3).png", "/system_preview/canteensystem (4).png",, "/system_preview/canteensystem (5).png", "/system_preview/canteensystem (6).png" ],
+      information : `
+This food reservation system is designed to streamline the ordering process for both students and canteen staff. It allows students to conveniently reserve their meals ahead of time, reducing wait times and ensuring availability. At the same time, it helps the canteen manage operations more efficiently by organizing product listings, monitoring stock, and handling orders systematically.
+
+For canteen staff, the system offers tools to add, edit, or delete food items, ensuring the menu is always up to date. They can also manage stock availability to prevent over-ordering and view all incoming reservations. Each reservation can be accepted or rejected, and staff can track specific pickup details such as date and time to ensure smooth order fulfillment.
+
+Students, on the other hand, can register an account and browse available food items. They can place reservation orders in advance and keep track of their order status through clearly defined stages—Pending, Accepted, or Completed. This gives them greater control and visibility over their orders, making the food reservation experience more convenient and reliable.
+      `
+    },
     
   
   ]
