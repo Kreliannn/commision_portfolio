@@ -1,3 +1,4 @@
+
 import TechStackSection from "./components/techStackSection"
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
@@ -7,13 +8,13 @@ import TransactionDesktop from "./components/transactionImgDesktop"
 import CommissionSection from "./components/commisionSection"
 import HeroSection from "./components/heroSection"
 
+
+
 export default function HomePage() {
 
-
-  
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans antialiased">
-     
+
       <Navbar />
      
       <section className="px-6 py-20 md:py-32 ">

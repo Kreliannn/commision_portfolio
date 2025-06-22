@@ -5,7 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Heart, Facebook, Phone, ArrowRight, Code, Palette, Database, Globe } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { useRouter } from "next/navigation"
-
+import { useState } from "react"
+import LoadingPage from "./loadingPage"
 
 function truncateString(str : string) {
     const maxLength = 150;
@@ -14,15 +15,18 @@ function truncateString(str : string) {
     return str.slice(0, maxLength - suffix.length) + suffix;
 }
 
-
-
 export default function SystemForSale()
 {
-  const router = useRouter();
+    const router = useRouter();
+    const [isLoading, setIsloading] = useState(false)
+  
 
     return(
  <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
+
+            {isLoading && <LoadingPage />}
+
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-5">Systems For Sale </h2>
             
             <div className="inline-flex items-center gap-2 bg-white shadow-lg rounded-full px-4 py-2 text-sm font-medium text-slate-600 ">
@@ -68,7 +72,10 @@ export default function SystemForSale()
                   </div>
                   <Button 
                     className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-xl py-3 font-medium transition-colors duration-200"
-                    onClick={() => router.push(`/system/${system.id}`)}
+                    onClick={() =>{
+                        router.push(`/system/${system.id}`)
+                        setIsloading(true)
+                    }}
                   >
                     View Details
                   </Button>
