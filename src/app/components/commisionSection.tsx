@@ -15,8 +15,8 @@ export default function CommissionSection() {
 
             
 
-            <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-lg">
-              <div className="m-auto w-full md:w-4/6 lg:w-full">
+            <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-lg w-full md:w-4/6 lg:w-full">
+              <div className="m-auto ">
                 <h3 className="text-2xl font-bold mb-6 ">Pricing Range</h3>
                 <div className="text-center mb-8">
                   <div className="text-4xl font-bold text-green-500 mb-2">₱250 - ₱5,000</div>
@@ -40,7 +40,7 @@ export default function CommissionSection() {
             </div>
 
 
-             <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-lg">
+             <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-lg  w-full md:w-4/6 lg:w-full">
 
                <div className="max-w-2xl mx-auto">
                 <div className=" m-auto">

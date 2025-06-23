@@ -15,11 +15,13 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans antialiased">
 
-      <Navbar />
+      
      
-      <section className="px-6 py-20 md:py-32 ">
+      <section className="px-6 py-18 md:py-30">
         <HeroSection />
       </section>
+
+      <Navbar />
 
       <section className="py-5 bg-slate-50/50 w-full">
         <TechStackSection />
