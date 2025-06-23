@@ -93,12 +93,13 @@ export default async function System({ params }: PageProps) {
               {system.images.map((img, index) => (
                 <div
                   key={index}
-                  className="group relative  overflow-hidden rounded-lg border border-gray-200 bg-gray-100 shadow-lg"
+                  className="relative group relative  overflow-hidden rounded-lg border border-gray-200 bg-gray-100 shadow-lg"
                 >
+                  <img src="/logo.png" alt="logo"  className="absolute top-1/2 left-1/2 w-24 h-24 opacity-5 bg-slate-900 rounded-lg -translate-x-1/2 -translate-y-1/2" />
                   <img
                     src={img || "/placeholder.svg"}
                     alt={`${system.title} - Image ${index + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-300 "
                   />
                 </div>
               ))}

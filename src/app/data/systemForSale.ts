@@ -71,7 +71,7 @@ Admins are responsible for maintaining the platform's integrity. They can ban in
       tech: ["Php", "MySQL", "Bootstrap"],
       price: "₱500",
       image: "/system/profsystem.png",
-      images: ["/system_preview/profsystem (1).jpg", "/system_preview/profsystem (2).jpg", "/system_preview/profsystem (3).jpg", "/system_preview/profsystem (4).jpg",, "/system_preview/profsystem (5).jpg", "/system_preview/profsystem (6).jpg", "/system_preview/profsystem (7).jpg", "/system_preview/profsystem (8).jpg", "/system_preview/profsystem (9).jpg",, "/system_preview/profsystem (10).jpg", ],
+      images: ["/system_preview/profsystem (1).png", "/system_preview/profsystem (2).png", "/system_preview/profsystem (3).png", "/system_preview/profsystem (4).png","/system_preview/profsystem (5).png", "/system_preview/profsystem (6).png", "/system_preview/profsystem (7).png", "/system_preview/profsystem (8).png", "/system_preview/profsystem (9).png", ],
       information : `
 System Overview
 This secure quiz-taking system is designed to prevent cheating and enhance overall quiz management. One of its key features is the anti-cheating mechanism: students are not allowed to switch tabs during a quiz. If a student attempts to Alt+Tab or navigate away from the quiz window, the system will automatically submit their quiz and flag it with a cheating status. This status is visible to the teacher for transparency and accountability.

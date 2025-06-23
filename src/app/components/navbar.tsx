@@ -12,8 +12,8 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center">
             <img
-              src={"/logo.jpg"}
-              alt={"Kian Dev Logo"}
+              src={"/logo.png"}
+              alt={"krln"}
               className="w-full h-full rounded-lg object-cover group-hover:scale-105 transition-transform duration-300"
             />
           </div>

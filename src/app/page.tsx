@@ -17,14 +17,14 @@ export default function HomePage() {
 
    <div className="absolute top-3 w-full flex justify-between items-center px-4">
       {/* Left item */}
-      <div className="bg-slate-900 rounded-full px-6 py-3 shadow-md text-sm font-bold text-white">
+      <div className="bg-slate-900 rounded-full md:px-6 md:py-3 px-4 py-1  shadow-md text-xs md:text-sm font-bold text-white">
         <h1>KRLN</h1>
       </div>
 
       {/* Right items */}
       <div className="flex items-center gap-3"> 
         <a  href="https://www.facebook.com/profile.php?id=61577572921830" target="_blank" rel="noopener noreferrer" className="z-50">
-            <div className=" text-white w-12 h-12 rounded-xl flex items-center justify-center bg-[#000000] transition-colors duration-300 md:w-10 md:h-10">
+            <div className=" text-white md:w-12 md:h-12 w-8 h-8 rounded-xl flex items-center justify-center bg-[#000000] transition-colors duration-300 md:w-10 md:h-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-8 h-8 "
@@ -38,7 +38,7 @@ export default function HomePage() {
 
 
         <a href="https://www.tiktok.com/@krelq" target="_blank" rel="noopener noreferrer"  className="z-50">
-          <div className="text-white w-12 h-12 rounded-xl flex items-center justify-center bg-[#000000] transition-colors duration-300 md:w-10 md:h-10">
+          <div className="text-white md:w-12 md:h-12 w-8 h-8 rounded-xl flex items-center justify-center bg-[#000000] transition-colors duration-300 md:w-10 md:h-10">
             <svg className="w-6 h-6 md:w-5 md:h-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5.76 20.5a6.34 6.34 0 0 0 10.86-4.43V7.83a8.2 8.2 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.8-.26z" />
             </svg>
