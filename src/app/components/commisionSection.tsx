@@ -16,26 +16,27 @@ export default function CommissionSection() {
             
 
             <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-lg">
-              <h3 className="text-2xl font-bold mb-6">Pricing Range</h3>
-              <div className="text-center mb-8">
-                <div className="text-4xl font-bold text-green-500 mb-2">₱250 - ₱5,000</div>
-                <p className="text-slate-600">Based on project complexity and timeline</p>
-              </div>
-              <div className="space-y-4 text-sm text-slate-600">
-                {
-                  services.map((service, index) => (
-                    <div key={index}>
-                      <div  className="flex justify-between">
-                        <span className="font-semibold text-lg text-stone-800">{service.title}</span>
-                        <span className="font-medium text-green-600 mt-2">{service.price}</span>
+              <div className="m-auto w-full md:w-4/6 lg:w-full">
+                <h3 className="text-2xl font-bold mb-6 ">Pricing Range</h3>
+                <div className="text-center mb-8">
+                  <div className="text-4xl font-bold text-green-500 mb-2">₱250 - ₱5,000</div>
+                  <p className="text-slate-600">Based on project complexity and timeline</p>
+                </div>
+                <div className="space-y-4 text-sm text-slate-600">
+                  {
+                    services.map((service, index) => (
+                      <div key={index}>
+                        <div  className="flex justify-between">
+                          <span className="font-semibold text-lg text-stone-800">{service.title}</span>
+                          <span className="font-medium text-green-600 mt-2">{service.price}</span>
+                        </div>
+                        <p className="text-xs">- {service.desc}</p>
                       </div>
-                      <p className="text-xs">- {service.desc}</p>
-                    </div>
-             
-                  ))
-                }
-              </div>
-             
+              
+                    ))
+                  }
+                </div>
+              </div>            
             </div>
 
 
@@ -43,10 +44,10 @@ export default function CommissionSection() {
 
                <div className="max-w-2xl mx-auto">
                 <div className=" m-auto">
-                  {/* edit this*/}
+                  
                   <div className="mb-8">
                     <h2 className="text-xl font-bold mb-2">  What's Included? </h2>
-                    <ul className="list-disc list-inside text-slate-600 space-y-2 text-sm">
+                    <ul className="list-disc pl-5 text-slate-600 space-y-2 text-sm">
                         <li>Complete system setup on your device</li>
                         <li>Sytem demonstration first, before payment</li>
                         <li>Daily progress reports and updates</li>
