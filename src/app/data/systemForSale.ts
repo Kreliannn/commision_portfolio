@@ -11,6 +11,7 @@ export const systemsForSale = [
 The pharmacy system management platform offers a comprehensive set of tools to streamline daily operations. Users can log in securely to access a personalized dashboard where they can manage medicines, monitor inventory levels, and process sales efficiently. The system allows adding, editing, or removing medicine records, including details like stock quantity, price, and expiry dates. Inventory management features include low-stock alerts and expiry tracking to help maintain adequate supplies. Sales processing is made simple through a point-of-sale interface where staff can select medicines, input quantities, and automatically calculate totals. Additionally, the platform includes modules for managing suppliers, viewing customer records, and generating detailed reports to analyze business performance. A settings section lets administrators customize system preferences and user access.
     `
     },
+
     {
       id: 2,
       title: "Fastfood Ordering Platform",
@@ -29,6 +30,7 @@ For customers, the platform supports account management, allowing users to edit 
 Admins have access to a centralized dashboard where they can monitor all business activities and user contributions. They also handle revenue management, earning a percentage from every sale made through the platform.
       `
     },
+
     {
       id: 3,
       title: "Book Swap Platform",
@@ -41,6 +43,7 @@ Admins have access to a centralized dashboard where they can monitor all busines
 The platform provides several features for users to facilitate book swapping. Users can post books they’ve finished reading and are willing to swap. They can also set up a wishlist of books they want to receive. When someone is interested in a swap, users can receive and review the swap requests, then choose which request they want to accept. To help finalize the details, users can chat with one another directly. Additionally, the platform allows users to track the status of each swap request, including whether it is pending, accepted, completed, or rejected.
       `
     }, 
+
     {
       id: 4,
       title: "Tenant-Landlord Rental Platform",
@@ -60,6 +63,7 @@ Admin Features:
 Admins are responsible for maintaining the platform's integrity. They can ban inappropriate property posts and user accounts, manage reports submitted by users, and verify landlord accounts for authenticity. An admin dashboard is provided to efficiently oversee and manage all platform activities.
       `
     },
+
     {
       id: 5,
       title: "Quiz Management System",
@@ -79,6 +83,7 @@ For Students
 Students can access and view all quizzes assigned to them by their teachers. Each quiz comes with a clear time limit and must be completed within the specified window. Once completed, students can review their quiz history, including past scores and performance metrics, allowing them to monitor their progress over time.
       `
     },
+
     {
       id: 6,
       title: "Canteen Reservasion System",
@@ -95,6 +100,50 @@ For canteen staff, the system offers tools to add, edit, or delete food items, e
 Students, on the other hand, can register an account and browse available food items. They can place reservation orders in advance and keep track of their order status through clearly defined stages—Pending, Accepted, or Completed. This gives them greater control and visibility over their orders, making the food reservation experience more convenient and reliable.
       `
     },
+
+
+
+    {
+      id: 7,
+      title: "Cafe Kiosk Ordering System",
+      description: "A self-ordering kiosk system for café stores that allows customers to place orders before proceeding to the cashier. Orders automatically appear on the cashier’s screen, where they can update the order status in real time.",
+      tech: ["Java",  "Swing", "MySQL",],
+      price: "₱700",
+      image: "/system/cafesystem.png",
+      images: ["/system_preview/cafesystem (1).png", "/system_preview/cafesystem (2).png", "/system_preview/cafesystem (3).png", "/system_preview/cafesystem (4).png",, "/system_preview/cafesystem (5).png", "/system_preview/cafesystem (6).png" ],
+      information : `
+The self-ordering kiosk system for café stores streamlines the ordering process by allowing customers to browse the menu and place orders directly at a kiosk before proceeding to payment. Once an order is placed, it instantly appears on the cashier’s dashboard, where the staff can manage and update the order status in real time—marking them as Paid, Canceled, To Pick Up, or Completed. The system also features automatic ingredient tracking and stock control, preventing orders if necessary ingredients are unavailable. When an order is placed, the system deducts the corresponding ingredients from inventory automatically (e.g., ordering Black Coffee reduces quantities of coffee beans and sugar). Additionally, the admin has control over product management, enabling updates to product names and prices, and can easily replenish ingredient stock through the integrated restock system.
+      `
+    },
+
+
+    {
+      id: 8,
+      title: "Restaurant POS System",
+      description: "A POS system for restaurants to streamline order management, track sales, monitor inventory levels, and generate reports. This system allows restaurant owners to efficiently manage their menu, keep track of stock availability, and gain insights into daily and monthly sales performance.",
+      tech: ["Java",  "Swing", "MySQL",],
+      price: "₱800",
+      image: "/system/restaurantsystem.png",
+      images: ["/system_preview/restaurantsystem (1).png", "/system_preview/restaurantsystem (2).png", "/system_preview/restaurantsystem (3).png", "/system_preview/restaurantsystem (4).png",, "/system_preview/restaurantsystem (5).png" ],
+      information : `
+ POS system for restaurants is designed to streamline order management, monitor inventory, track sales, and generate insightful reports. It enables restaurant owners to efficiently manage their menu, monitor stock availability, and gain valuable insights into daily and monthly sales performance. With features like menu management, users can easily add, edit, or remove products from the menu. The system also offers real-time stock tracking to help maintain adequate inventory levels and prevent shortages. Additionally, it provides detailed sales tracking with customizable reports and stores a history of receipts and past transactions, ensuring smooth operations and informed decision-making.
+      `
+    },
+
+
+    {
+      id: 9,
+      title: "Barangay Document Request System",
+      description: "A system that allows residents to request barangay documents online without visiting the barangay hall. Residents can track their request status, receive email notifications, and view request history. The barangay admin can manage requests, update statuses, and track transaction history.",
+      tech: ["React",  "Node js", "Mongo db",],
+      price: "₱900",
+      image: "/system/requestsystem.png",
+      images: [ "/system_preview/requestsystem (2).png", "/system_preview/requestsystem (3).png", "/system_preview/requestsystem (4).png",, "/system_preview/requestsystem (5).png", "/system_preview/requestsystem (6).png", "/system_preview/requestsystem (7).png", "/system_preview/requestsystem (8).png", "/system_preview/requestsystem (9).png",, "/system_preview/requestsystem (10).png","/system_preview/requestsystem (11).png",, "/system_preview/requestsystem (12).png"  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+    },
+    
     
   
   ]
