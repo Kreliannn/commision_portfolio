@@ -15,7 +15,8 @@ export default function TransactionDesktop() {
       <CarouselContent className="-ml-1">
         {transactions.map((transaction, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/5 lg:basis-1/5">
-            <div className="p-1">
+            <div className="p-1 relative">
+              <img src="/logo.png" alt="logo"  className="absolute top-1/2 left-1/2 w-24 h-24 opacity-15 bg-slate-900 rounded-lg -translate-x-1/2 -translate-y-1/2" />
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-0 ">
                   <img
