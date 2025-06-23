@@ -6,10 +6,9 @@ export default function HeroSection() {
 
     return (
       <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-slate-50 rounded-full px-4 py-2 text-sm font-medium text-slate-600 mb-8">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            Available for new projects
-          </div>
+
+ 
+          <br /><br /><br />
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-slate-900 to-slate-600 bg-clip-text text-transparent">
             Need a System for Your School Project?
           </h1>

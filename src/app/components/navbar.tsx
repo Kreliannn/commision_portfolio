@@ -17,7 +17,7 @@ export default function Navbar() {
               className="w-full h-full rounded-lg object-cover group-hover:scale-105 transition-transform duration-300"
             />
           </div>
-          <span className="text-xl font-semibold tracking-tight">KRLN</span>
+         
         </div>
 
         {pathname !== "/" && (
