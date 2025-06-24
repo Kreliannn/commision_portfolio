@@ -2,13 +2,13 @@ export const systemsForSale = [
     {
       id: 1,
       title: "Pharmacy Management System",
-      description: "The pharmacy system management platform lets users manage medicines, track inventory, and process sales efficiently. It includes features for adding/editing medicine records, monitoring stock and expiry, managing suppliers and customers, and generating reports—all accessible from a central dashboard.",
+      description: " asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj",
       tech: ["react", "node js", "mongo db", "tailwind", "express js"],
       price: "₱700",
       image: "/system/pharmacysystem.png",
       images: ["/system_preview/pharmacysystem (1).jpg", "/system_preview/pharmacysystem (2).jpg", "/system_preview/pharmacysystem (3).jpg", "/system_preview/pharmacysystem (4).jpg", "/system_preview/pharmacysystem (5).jpg", "/system_preview/pharmacysystem (6).jpg", "/system_preview/pharmacysystem (7).jpg", "/system_preview/pharmacysystem (8).jpg", ],
       information : `
-The pharmacy system management platform offers a comprehensive set of tools to streamline daily operations. Users can log in securely to access a personalized dashboard where they can manage medicines, monitor inventory levels, and process sales efficiently. The system allows adding, editing, or removing medicine records, including details like stock quantity, price, and expiry dates. Inventory management features include low-stock alerts and expiry tracking to help maintain adequate supplies. Sales processing is made simple through a point-of-sale interface where staff can select medicines, input quantities, and automatically calculate totals. Additionally, the platform includes modules for managing suppliers, viewing customer records, and generating detailed reports to analyze business performance. A settings section lets administrators customize system preferences and user access.
+ asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
     `
     },
 
@@ -107,7 +107,7 @@ Students, on the other hand, can register an account and browse available food i
       id: 7,
       title: "Cafe Kiosk Ordering System",
       description: "A self-ordering kiosk system for café stores that allows customers to place orders before proceeding to the cashier. Orders automatically appear on the cashier’s screen, where they can update the order status in real time.",
-      tech: ["java", "mysql",],
+      tech: ["java", "swing", "mysql",],
       price: "₱700",
       image: "/system/cafesystem.png",
       images: ["/system_preview/cafesystem (1).png", "/system_preview/cafesystem (2).png", "/system_preview/cafesystem (3).png", "/system_preview/cafesystem (4).png",, "/system_preview/cafesystem (5).png", "/system_preview/cafesystem (6).png" ],
@@ -121,7 +121,7 @@ The self-ordering kiosk system for café stores streamlines the ordering process
       id: 8,
       title: "Restaurant POS System",
       description: "A POS system for restaurants to streamline order management, track sales, monitor inventory levels, and generate reports. This system allows restaurant owners to efficiently manage their menu, keep track of stock availability, and gain insights into daily and monthly sales performance.",
-      tech: ["java", "mysql",],
+      tech: ["java", "swing", "mysql"],
       price: "₱800",
       image: "/system/restaurantsystem.png",
       images: ["/system_preview/restaurantsystem (1).png", "/system_preview/restaurantsystem (2).png", "/system_preview/restaurantsystem (3).png", "/system_preview/restaurantsystem (4).png",, "/system_preview/restaurantsystem (5).png" ],
@@ -134,15 +134,97 @@ The self-ordering kiosk system for café stores streamlines the ordering process
     {
       id: 9,
       title: "Barangay Document Request System",
-      description: "A system that allows residents to request barangay documents online without visiting the barangay hall. Residents can track their request status, receive email notifications, and view request history. The barangay admin can manage requests, update statuses, and track transaction history.",
+      description: " asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj",
       tech: ["react", "node js", "mongo db", "tailwind", "express js"],
       price: "₱900",
       image: "/system/requestsystem.png",
-      images: [ "/system_preview/requestsystem (2).png", "/system_preview/requestsystem (3).png", "/system_preview/requestsystem (4).png",, "/system_preview/requestsystem (5).png", "/system_preview/requestsystem (6).png", "/system_preview/requestsystem (7).png", "/system_preview/requestsystem (8).png", "/system_preview/requestsystem (9).png",, "/system_preview/requestsystem (10).png","/system_preview/requestsystem (11).png",, "/system_preview/requestsystem (12).png"  ],
+      images: [  "/system_preview/requestsystem (2).png", "/system_preview/requestsystem (3).png", "/system_preview/requestsystem (4).png",, "/system_preview/requestsystem (5).png", "/system_preview/requestsystem (6).png", "/system_preview/requestsystem (7).png", "/system_preview/requestsystem (8).png", "/system_preview/requestsystem (9).png",, "/system_preview/requestsystem (10).png","/system_preview/requestsystem (11).png",, "/system_preview/requestsystem (12).png"  ],
       information : `
         asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
       `
     },
+
+    {
+      id: 10,
+      title: "Clothing Brand E Commerce",
+      description: " asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj",
+      tech: ["react", "node js", "mongo db", "tailwind", "express js"],
+      price: "₱900",
+      image: "/system/clothingsystem.png",
+      images: ["/system_preview/clothingsystem (1).jpg",  "/system_preview/clothingsystem (2).jpg", "/system_preview/clothingsystem (3).jpg", "/system_preview/clothingsystem (4).jpg",, "/system_preview/clothingsystem (5).jpg", "/system_preview/clothingsystem (6).jpg", "/system_preview/clothingsystem (7).jpg", "/system_preview/clothingsystem (8).jpg", "/system_preview/clothingsystem (9).jpg", "/system_preview/clothingsystem (10).jpg","/system_preview/clothingsystem (11).jpg",, "/system_preview/clothingsystem (12).jpg" , "/system_preview/clothingsystem (13).jpg","/system_preview/clothingsystem (14).jpg","/system_preview/clothingsystem (15).jpg"  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+    },
+
+
+    {
+      id: 11,
+      title: "Employee Management System",
+      description: "sdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs uests, update statuses, and track transaction history.",
+      tech: ["react", "node js", "mongo db", "tailwind", "express js"],
+      price: "₱900",
+      image: "/system/employeesystem.png",
+      images: ["/system_preview/employeesystem (1).jpg",, "/system_preview/employeesystem (2).jpg", "/system_preview/employeesystem (3).jpg", "/system_preview/employeesystem (4).jpg",, "/system_preview/employeesystem (5).jpg", "/system_preview/employeesystem (6).jpg", "/system_preview/employeesystem (7).jpg", "/system_preview/employeesystem (8).jpg", "/system_preview/employeesystem (9).jpg",, "/system_preview/employeesystem (10).jpg","/system_preview/employeesystem (11).jpg",  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+    },
+    
+
+    {
+      id: 12,
+      title: "POS System",
+      description: "sdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs uests, update statuses, and track transaction history.",
+      tech: ["python", "pyqt", "mysql"],
+      price: "₱900",
+      image: "/system/pastrysystem.png",
+      images: ["/system_preview/pastrysystem (1).jpg",, "/system_preview/pastrysystem (2).jpg", "/system_preview/pastrysystem (3).jpg", "/system_preview/pastrysystem (4).jpg",, "/system_preview/pastrysystem (5).jpg", "/system_preview/pastrysystem (6).jpg", "/system_preview/pastrysystem (7).jpg", "/system_preview/pastrysystem (8).jpg", "/system_preview/pastrysystem (9).jpg",  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+    },
+
+   {
+      id: 13,
+      title: "Attendace System",
+      description: "sdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs uests, update statuses, and track transaction history.",
+      tech: ["python", "pyqt", "mysql"],
+      price: "₱900",
+      image: "/system/attendancesystem.png",
+      images: ["/system_preview/attendancesystem (1).jpg", "/system_preview/attendancesystem (2).jpg", "/system_preview/attendancesystem (3).jpg", "/system_preview/attendancesystem (4).jpg",, "/system_preview/attendancesystem (5).jpg", "/system_preview/attendancesystem (6).jpg"  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+  },
+    
+
+  {
+      id: 14,
+      title: "Reviewer To Pdf",
+      description: "sdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs uests, update statuses, and track transaction history.",
+      tech: ["react", "node js", "postgre", "tailwind", "express js"],
+      price: "₱900",
+      image: "/system/reviewersystem.png",
+      images: ["/system_preview/reviewersystem (1).png",, "/system_preview/reviewersystem (2).png", "/system_preview/reviewersystem (3).png", "/system_preview/reviewersystem (4).png",, "/system_preview/reviewersystem (5).png", "/system_preview/reviewersystem (6).png", "/system_preview/reviewersystem (7).png", "/system_preview/reviewersystem (8).png", "/system_preview/reviewersystem (9).png",  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+  },
+
+
+  {
+      id: 15,
+      title: "Grocery Pos System",
+      description: "sdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs uests, update statuses, and track transaction history.",
+      tech: ["python", "pyqt", "mysql"],
+      price: "₱900",
+      image: "/system/grocerysystem.png",
+      images: ["/system_preview/grocerysystem (1).jpg",, "/system_preview/grocerysystem (2).jpg", "/system_preview/grocerysystem (3).jpg", "/system_preview/grocerysystem (4).jpg",, "/system_preview/grocerysystem (5).jpg", "/system_preview/grocerysystem (6).jpg", "/system_preview/grocerysystem (7).jpg", "/system_preview/grocerysystem (8).jpg", "/system_preview/grocerysystem (9).jpg",, "/system_preview/grocerysystem (10).jpg", "/system_preview/grocerysystem (11).jpg",  ],
+      information : `
+        asdjasfhas fasufaks hfas fas kfahjs fahs fkhaks fkhjas fhkas hkfak as fas hfash fhasfhas hfahs hj safhj asfhjas fh asfh asfhj kashjf hahj fahjs fhash  hashf ash fhas fhajf hjas hjfah sfha hjsf hjafhj sahj fahsj fhjass hfk hjsjssjs j sjs jj
+      `
+  },
     
     
   
