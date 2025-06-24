@@ -3,7 +3,7 @@ import Navbar from "@/app/components/navbar"
 import { systemsForSale } from "@/app/data/systemForSale"
 import { Tag, DollarSign, Info, ImageIcon } from "lucide-react"
 import Footer from "@/app/components/footer"
-
+import { getIcon } from "@/app/functions/functions"
 
 interface PageProps {
   params: Promise<{
@@ -58,8 +58,9 @@ export default async function System({ params }: PageProps) {
             {system.tech.map((tech, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-white text-gray-700 text-sm rounded-full border border-gray-200 shadow-lg"
+                className="flex gap-2 px-3 py-1 font-semibold bg-white text-gray-700 text-sm rounded-full border border-gray-200 shadow-lg"
               >
+                <img src={getIcon(tech)} alt="" className="w-5 h-5 rounded-lg" />
                 {tech}
               </span>
             ))}

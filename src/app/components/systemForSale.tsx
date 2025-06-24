@@ -7,13 +7,8 @@ import { Badge } from "@/components/ui/badge"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import LoadingPage from "./loadingPage"
-
-function truncateString(str : string) {
-    const maxLength = 150;
-    const suffix = "........";
-    if (str.length <= maxLength) return str;
-    return str.slice(0, maxLength - suffix.length) + suffix;
-}
+import { truncateString } from "../functions/functions"
+import { getIcon } from "../functions/functions"
 
 export default function SystemForSale()
 {
@@ -65,13 +60,14 @@ export default function SystemForSale()
                 <CardContent className="px-6 pb-6">
                   <div className="flex flex-wrap gap-2 mb-6">
                     {system.tech.map((tech) => (
-                      <Badge
-                        key={tech}
-                        variant={"outline"}
-                        className="bg-slate-50 text-slate-700 hover:bg-slate-100 rounded-full px-3 py-1"
-                      >
-                        {tech}
-                      </Badge>
+                    <span
+                      key={tech}
+                      className="flex gap-2 px-3 py-1 font-semibold bg-white text-gray-700 text-xs rounded-full border border-gray-200 shadow-lg"
+                    >
+                      <img src={getIcon(tech)} alt="" className="w-5 h-5 rounded-lg" />
+                      {tech}
+                    </span>
+                     
                     ))}
                   </div>
                   <Button 
@@ -87,16 +83,9 @@ export default function SystemForSale()
               </Card>
             ))}
           </div>
-          <div className="text-center">
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-slate-200 text-slate-700 hover:bg-slate-50 px-8 py-4 rounded-xl font-medium"
-            >
-              View All Systems
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
-          </div>
+          
+
+
     </div>
     )
 }
