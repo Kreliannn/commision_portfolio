@@ -59,10 +59,10 @@ export default function SystemForSale()
                 </CardHeader>
                 <CardContent className="px-6 pb-6">
                   <div className="flex flex-wrap gap-2 mb-6">
-                    {system.tech.map((tech) => (
+                    {system.tech.slice(0, 3).map((tech) => (
                     <span
                       key={tech}
-                      className="flex gap-2 px-3 py-1 font-semibold bg-white text-gray-700 text-xs rounded-full border border-gray-200 shadow-lg"
+                      className="flex gap-1 px-3 py-1 font-semibold bg-white text-gray-700 text-xs rounded-full border border-gray-200 shadow-lg"
                     >
                       <img src={getIcon(tech)} alt="" className="w-5 h-5 rounded-lg" />
                       {tech}
