@@ -13,7 +13,7 @@ export default function HeroSection() {
             Need a System for Your School Project?
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            I create custom web systems and sell ready-to-use One — perfect for students projects
+            I create custom web systems and sell ready-to-use One — perfect for school projects
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

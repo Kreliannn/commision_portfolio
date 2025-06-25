@@ -11,13 +11,13 @@ export const systemsForSale = [
             "/system_preview/reviewersystem (9).png",
             "/system_preview/reviewersystem (8).png",
             "/system_preview/reviewersystem (7).png",
-            "/system_preview/reviewersystem (11).png",
+            "/system_preview/reviewersystem (11).jpg",
             "/system_preview/reviewersystem (6).png",
             "/system_preview/reviewersystem (5).png",
             "/system_preview/reviewersystem (4).png",
             "/system_preview/reviewersystem (3).png",
             "/system_preview/reviewersystem (2).png",
-            "/system_preview/reviewersystem (1).jpg",
+            "/system_preview/reviewersystem (1).png",
       ],
 
       information : `
