@@ -163,7 +163,7 @@ Admins have access to a centralized dashboard where they can monitor all busines
       title: "Restaurant POS System",
       description: "A POS system for restaurants to streamline order management, track sales, monitor inventory levels, and generate reports. This system allows restaurant owners to efficiently manage their menu, keep track of stock availability, and gain insights into daily and monthly sales performance.",
       tech: ["java", "swing", "mysql"],
-      price: "₱500",
+      price: "₱600",
       image: "/system/restaurantsystem.png",
       images: ["/system_preview/restaurantsystem (5).png", "/system_preview/restaurantsystem (2).png", "/system_preview/restaurantsystem (3).png", "/system_preview/restaurantsystem (1).png",, "/system_preview/restaurantsystem (4).png" ],
       information : `
@@ -348,7 +348,7 @@ The cashier can handle customer orders, generate receipts, and view transaction 
       title: "Cafe Kiosk Ordering System",
       description: "A self-ordering kiosk system for café stores that allows customers to place orders before proceeding to the cashier. Orders automatically appear on the cashier’s screen, where they can update the order status in real time.",
       tech: ["java", "swing", "mysql",],
-      price: "₱500",
+      price: "₱600",
       image: "/system/cafesystem.png",
       images: ["/system_preview/cafesystem (1).png", "/system_preview/cafesystem (2).png", "/system_preview/cafesystem (3).png", "/system_preview/cafesystem (4).png",, "/system_preview/cafesystem (5).png", "/system_preview/cafesystem (6).png" ],
       information : `
