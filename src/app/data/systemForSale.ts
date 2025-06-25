@@ -20,6 +20,22 @@ Admins are responsible for maintaining the platform's integrity. They can ban in
     },
 
 
+
+     {
+      id: 11,
+      title: " Salary Deduction Monitoring System",
+      description: "A system that manages employee information, including tax and loans. It automatically calculates the total deductions from each employee’s salary. The system also generates an Excel sheet for the employee's monthly tax and loan records.  ",
+      tech: ["react", "node js", "mongo db", "tailwind", "express js"],
+      price: "₱700",
+      image: "/system/employeesystem.png",
+      images: ["/system_preview/employeesystem (1).jpg",, "/system_preview/employeesystem (2).jpg", "/system_preview/employeesystem (3).jpg", "/system_preview/employeesystem (4).jpg",, "/system_preview/employeesystem (5).jpg", "/system_preview/employeesystem (6).jpg", "/system_preview/employeesystem (7).jpg", "/system_preview/employeesystem (8).jpg", "/system_preview/employeesystem (9).jpg",, "/system_preview/employeesystem (10).jpg","/system_preview/employeesystem (11).jpg",  ],
+      information : `
+       
+A system that can manage employee data, allowing you to add, edit, and delete employees. After adding an employee, you can set their tax and loan details. The system automatically generates an Excel file that contains each employee's tax and loan records. It also calculates the total deductions for each employee, making it easy to monitor their deductions.
+      `
+    },
+
+
      {
       id: 10,
       title: "Online Clothing Store E-commerce System",
@@ -53,7 +69,7 @@ Admins can view the full transaction history and are responsible for updating th
 
      {
       id: 1,
-      title: "Pharmacy Sales and Stock Monitoring System",
+      title: "Pharmacy store Monitoring System",
       description: "A pharmacy management system that helps store owners manage products, suppliers, and sales. It tracks inventory levels, it has indicator when items need restocking, and generates printable sales reports. The system streamlines daily operations by keeping all product, supplier, and sales information in one platform.",
       tech: ["react", "node js", "mongo db", "tailwind", "express js"],
       price: "₱750",
@@ -67,6 +83,48 @@ For sales management, the system records all transactions and generates detailed
 With this pharmacy management system, store owners can streamline daily operations, monitor product availability, and keep track of both sales and supplier transactions—all in one platform.
     `
     },
+
+
+
+
+     {
+      id: 9,
+      title: "Barangay Documents Request System",
+      description: "A  system that allows residents to request barangay documents online without visiting the barangay hall. Residents can track their request status, receive email notifications, and view request history. The barangay admin can manage requests, update statuses, and track transaction history.",
+      tech: ["react", "node js", "mongo db", "tailwind", "express js"],
+      price: "₱800",
+      image: "/system/requestsystem.png",
+      images: [  "/system_preview/requestsystem (2).png", "/system_preview/requestsystem (3).png", "/system_preview/requestsystem (4).png",, "/system_preview/requestsystem (5).png", "/system_preview/requestsystem (6).png", "/system_preview/requestsystem (7).png", "/system_preview/requestsystem (8).png", "/system_preview/requestsystem (9).png",, "/system_preview/requestsystem (10).png","/system_preview/requestsystem (11).png",, "/system_preview/requestsystem (12).png"  ],
+      information : `
+Residents can request barangay documents online, such as barangay clearance, business permit, barangay residency, and more. They can choose to pick up the document at the barangay office or have it delivered to their home once it's ready.
+
+There is a notification section where residents can track the status of their requests—whether it's "Pending," "Processing," or "Completed." Every time the status changes, it is shown in the notification section, and an email is automatically sent to the resident's Gmail account with the updated status.
+
+Admins can view and manage all document requests. They are responsible for updating the status of each request (Approve, Reject, Process, Complete). Admins can also see which documents are ready for pickup or delivery, view the full request history, and track the earnings from document requests.
+      `
+    },
+
+
+      {
+      id: 5,
+      title: "Quiz Management System",
+      description: "This secure quiz-taking system is designed to help teachers manage quizzes effectively while preventing student cheating. It features an anti-cheating mechanism that automatically submits a quiz and flags it if a student switches tabs or leaves the quiz window. Teachers can create quizzes with time limits, set deadlines, view and filter student scores, and track overall performance. Meanwhile, students can view available quizzes, take them within the given time, and review their quiz history to monitor their progress.",
+      tech: ["php", "mysql", "bootstrap"],
+      price: "₱600",
+      image: "/system/profsystem.png",
+      images: ["/system_preview/profsystem (1).png", "/system_preview/profsystem (2).png", "/system_preview/profsystem (3).png", "/system_preview/profsystem (4).png","/system_preview/profsystem (5).png", "/system_preview/profsystem (6).png", "/system_preview/profsystem (7).png", "/system_preview/profsystem (8).png", "/system_preview/profsystem (9).png", ],
+      information : `
+System Overview
+This secure quiz-taking system is designed to prevent cheating and enhance overall quiz management. One of its key features is the anti-cheating mechanism: students are not allowed to switch tabs during a quiz. If a student attempts to Alt+Tab or navigate away from the quiz window, the system will automatically submit their quiz and flag it with a cheating status. This status is visible to the teacher for transparency and accountability.
+
+For Teachers
+Teachers have full control over quiz creation and management. They can create quizzes with customizable time limits, deadlines, and subject tags. After students complete the quizzes, teachers can view all student scores and track their performance. To make evaluation easier, the system includes filtering options that help teachers sort and analyze student data efficiently.
+
+For Students
+Students can access and view all quizzes assigned to them by their teachers. Each quiz comes with a clear time limit and must be completed within the specified window. Once completed, students can review their quiz history, including past scores and performance metrics, allowing them to monitor their progress over time.
+      `
+    },
+
 
    
   {
@@ -92,19 +150,7 @@ Admins have access to a centralized dashboard where they can monitor all busines
 
 
 
-     {
-      id: 11,
-      title: "Employee Salary Deduction Monitoring System",
-      description: "A system that manages employee information, including tax and loans. It automatically calculates the total deductions from each employee’s salary. The system also generates an Excel sheet for the employee's monthly tax and loan records.  ",
-      tech: ["react", "node js", "mongo db", "tailwind", "express js"],
-      price: "₱700",
-      image: "/system/employeesystem.png",
-      images: ["/system_preview/employeesystem (1).jpg",, "/system_preview/employeesystem (2).jpg", "/system_preview/employeesystem (3).jpg", "/system_preview/employeesystem (4).jpg",, "/system_preview/employeesystem (5).jpg", "/system_preview/employeesystem (6).jpg", "/system_preview/employeesystem (7).jpg", "/system_preview/employeesystem (8).jpg", "/system_preview/employeesystem (9).jpg",, "/system_preview/employeesystem (10).jpg","/system_preview/employeesystem (11).jpg",  ],
-      information : `
-       
-A system that can manage employee data, allowing you to add, edit, and delete employees. After adding an employee, you can set their tax and loan details. The system automatically generates an Excel file that contains each employee's tax and loan records. It also calculates the total deductions for each employee, making it easy to monitor their deductions.
-      `
-    },
+    
 
 
     {
@@ -132,23 +178,7 @@ To help users track their performance, the system provides a detailed quiz resul
 
 
 
-     {
-      id: 9,
-      title: "Barangay Documents Request System",
-      description: "A  system that allows residents to request barangay documents online without visiting the barangay hall. Residents can track their request status, receive email notifications, and view request history. The barangay admin can manage requests, update statuses, and track transaction history.",
-      tech: ["react", "node js", "mongo db", "tailwind", "express js"],
-      price: "₱800",
-      image: "/system/requestsystem.png",
-      images: [  "/system_preview/requestsystem (2).png", "/system_preview/requestsystem (3).png", "/system_preview/requestsystem (4).png",, "/system_preview/requestsystem (5).png", "/system_preview/requestsystem (6).png", "/system_preview/requestsystem (7).png", "/system_preview/requestsystem (8).png", "/system_preview/requestsystem (9).png",, "/system_preview/requestsystem (10).png","/system_preview/requestsystem (11).png",, "/system_preview/requestsystem (12).png"  ],
-      information : `
-Residents can request barangay documents online, such as barangay clearance, business permit, barangay residency, and more. They can choose to pick up the document at the barangay office or have it delivered to their home once it's ready.
-
-There is a notification section where residents can track the status of their requests—whether it's "Pending," "Processing," or "Completed." Every time the status changes, it is shown in the notification section, and an email is automatically sent to the resident's Gmail account with the updated status.
-
-Admins can view and manage all document requests. They are responsible for updating the status of each request (Approve, Reject, Process, Complete). Admins can also see which documents are ready for pickup or delivery, view the full request history, and track the earnings from document requests.
-      `
-    },
-
+    
 
     {
       id: 3,
@@ -164,25 +194,7 @@ The platform provides several features for users to facilitate book swapping. Us
     }, 
 
 
-    {
-      id: 5,
-      title: "Quiz Management System",
-      description: "This secure quiz-taking system is designed to help teachers manage quizzes effectively while preventing student cheating. It features an anti-cheating mechanism that automatically submits a quiz and flags it if a student switches tabs or leaves the quiz window. Teachers can create quizzes with time limits, set deadlines, view and filter student scores, and track overall performance. Meanwhile, students can view available quizzes, take them within the given time, and review their quiz history to monitor their progress.",
-      tech: ["php", "mysql", "bootstrap"],
-      price: "₱600",
-      image: "/system/profsystem.png",
-      images: ["/system_preview/profsystem (1).png", "/system_preview/profsystem (2).png", "/system_preview/profsystem (3).png", "/system_preview/profsystem (4).png","/system_preview/profsystem (5).png", "/system_preview/profsystem (6).png", "/system_preview/profsystem (7).png", "/system_preview/profsystem (8).png", "/system_preview/profsystem (9).png", ],
-      information : `
-System Overview
-This secure quiz-taking system is designed to prevent cheating and enhance overall quiz management. One of its key features is the anti-cheating mechanism: students are not allowed to switch tabs during a quiz. If a student attempts to Alt+Tab or navigate away from the quiz window, the system will automatically submit their quiz and flag it with a cheating status. This status is visible to the teacher for transparency and accountability.
-
-For Teachers
-Teachers have full control over quiz creation and management. They can create quizzes with customizable time limits, deadlines, and subject tags. After students complete the quizzes, teachers can view all student scores and track their performance. To make evaluation easier, the system includes filtering options that help teachers sort and analyze student data efficiently.
-
-For Students
-Students can access and view all quizzes assigned to them by their teachers. Each quiz comes with a clear time limit and must be completed within the specified window. Once completed, students can review their quiz history, including past scores and performance metrics, allowing them to monitor their progress over time.
-      `
-    },
+  
 
     {
       id: 6,
