@@ -23,7 +23,7 @@ Admins are responsible for maintaining the platform's integrity. They can ban in
 
      {
       id: 11,
-      title: " Salary Deduction Monitoring System",
+      title: "Employee Salary Deduction Monitoring System",
       description: "A system that manages employee information, including tax and loans. It automatically calculates the total deductions from each employee’s salary. The system also generates an Excel sheet for the employee's monthly tax and loan records.  ",
       tech: ["react", "node js", "mongo db", "tailwind", "express js"],
       price: "₱700",
@@ -69,7 +69,7 @@ Admins can view the full transaction history and are responsible for updating th
 
      {
       id: 1,
-      title: "Pharmacy store Monitoring System",
+      title: "Pharmacy Sales and Stock Monitoring System",
       description: "A pharmacy management system that helps store owners manage products, suppliers, and sales. It tracks inventory levels, it has indicator when items need restocking, and generates printable sales reports. The system streamlines daily operations by keeping all product, supplier, and sales information in one platform.",
       tech: ["react", "node js", "mongo db", "tailwind", "express js"],
       price: "₱750",
