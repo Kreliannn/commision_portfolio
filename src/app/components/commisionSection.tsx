@@ -19,7 +19,7 @@ export default function CommissionSection() {
               <div className="m-auto ">
                 <h3 className="text-2xl font-bold mb-6 ">Pricing Range</h3>
                 <div className="text-center mb-8">
-                  <div className="text-4xl font-bold text-green-500 mb-2">₱250 - ₱5,000</div>
+                  <div className="text-4xl font-bold text-green-500 mb-2">₱200 - ₱5,000</div>
                   <p className="text-slate-600">Based on project complexity and timeline</p>
                 </div>
                 <div className="space-y-4 text-sm text-slate-600">
