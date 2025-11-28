@@ -41,9 +41,15 @@ export default async function System({ params }: PageProps) {
         <div className="mb-10">
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
             <h1 className="font-semibold text-4xl font-light text-gray-900 leading-tight">{system.title}</h1>
-            <div className="flex items-center gap-2 text-3xl font-medium text-emerald-600">
-              <span className="text-stone-500 text-lg block md:hidden"> price </span> {system.price}
-            </div>
+            {
+              /*
+              <div className="flex items-center gap-2 text-3xl font-medium text-emerald-600">
+                <span className="text-stone-500 text-lg block md:hidden"> price </span> {system.price}
+              </div>
+              */
+            }
+            
+
           </div>
           <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">{system.description}</p>
         </div>
