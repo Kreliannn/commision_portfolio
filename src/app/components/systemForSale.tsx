@@ -40,12 +40,16 @@ export default function SystemForSale()
                 key={system.id}
                 className={`p-0 group relative overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white rounded-2xl `}
               >
-               
+               {
+                /*
                 <div className="absolute top-2 right-2 border border-green-500 z-10 shadow-lg rounded-full bg-white/70 backdrop-blur-sm flex items-center justify-center">
                   <div className="bg-white/70 backdrop-blur-sm rounded-full px-3 py-1 font-bold text-green-500 text-2xl">
                     {system.price}
                   </div>
                 </div>
+                */
+               }
+
                 <div className="aspect-[4/3] bg-gradient-to-br from-slate-50 to-slate-100 overflow-hidden">
                   <img
                     src={system.image || "/placeholder.svg"}
